@@ -1,0 +1,24 @@
+{
+    "name": "root/persian-date",
+    "type": "library",
+    "description": "This class converts Gregorian date into Jalali format.",
+    "keywords": ["convertor", "date", "Jalali", "Gregorian"],
+    "homepage": "https://github.com/hamidgh83/PersianDate",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Seyed Hamid Ghorashi",
+            "email": "h.ghorashi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "PersianDate\\": "src/PersianDate"
+        }
+    },
+    "require": {
+        "php": "^7"
+    }
+}
