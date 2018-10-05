@@ -3,14 +3,14 @@
     "type": "library",
     "description": "This class converts Gregorian date into Jalali format.",
     "keywords": ["convertor", "date", "Jalali", "Gregorian"],
-    "homepage": "https://github.com/hamidgh83/PersianDate",
+    "homepage": "https://github.com/hamidgh83/IntlDateTime",
     "license": "MIT",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "authors": [
         {
-            "name": "Seyed Hamid Ghorashi",
-            "email": "h.ghorashi@gmail.com"
+          "name": "Hamid Ghorashi",
+          "email": "h.ghorashi@gmail.com"
         }
     ],
     "autoload": {
