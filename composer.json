@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "PersianDate\\": "src/PersianDate"
+          "IntlDateTime\\": "src/IntlDateTime"
         }
     },
     "require": {
