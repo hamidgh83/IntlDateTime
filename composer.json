@@ -1,5 +1,5 @@
 {
-    "name": "hamidgh83/IntldateTime",
+    "name": "hamidgh83/intl-date-time",
     "type": "library",
     "description": "This class converts Gregorian date into Jalali format.",
     "keywords": ["convertor", "date", "Jalali", "Gregorian"],
