@@ -1,17 +1,17 @@
 <?php
+/**
+ * This is an extension of PHP DateTime which is compatible with any other calendars like Jalali, Islamic, etc.
+ * 
+ * @author Seyed Hamid Ghorashi <h.ghorashi@gmail.com>
+ * @version 1.0.0
+ * @license MIT
+ */
 
 namespace IntlDateTime;
 
 use DateTime as PHPDateTime;
 use IntlDateTime\Adapters\AdapterInterface;
 
-/**
- * This is class is an extension of php DateTime which is compatible with any other calendars like Jalali, Islamic, etc.
- * 
- * @author Seyed Hamid Ghorashi <h.ghorashi@gmail.com>
- * @version 1.0.0
- * @license MIT
- */
 class DateTime extends PHPDateTime
 {
 	/**
