@@ -9,7 +9,7 @@ This library requires PHP 7.0 and above to be installed.
 The library can be installed via composer:
 
 ```sh
-$ composer require hamidgh83/IntlDateTime
+$ composer require hamidgh83/intldatetime
 ```
 
 ### Usage
