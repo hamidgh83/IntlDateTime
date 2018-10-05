@@ -169,10 +169,11 @@ class JalaliAdapter implements AdapterInterface
 			'y' => substr($dateTime->getYear(), -2),
 			'Y' => $dateTime->getYear(),
 			'M' => self::PERSIAN_MONTHS[$dateTime->getMonth() - 1],
+			'F' => self::PERSIAN_MONTHS[$dateTime->getMonth() - 1],
+			'm' => $dateTime->getMonth() < 10 ? '0' . $dateTime->getMonth() : $dateTime->getMonth(),
 			'm' => $dateTime->getMonth() < 10 ? '0' . $dateTime->getMonth() : $dateTime->getMonth(),
 			'j' => $dateTime->getMonth(),
 			'D' => self::PERSIAN_WEEK_DAY[$week],
-			'W' => self::PERSIAN_WEEK_DAY[$week],
 			'l' => self::PERSIAN_WEEK_DAY[$week],
 			'd' => $dateTime->getDay()
 		];
