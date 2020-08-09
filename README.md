@@ -1,3 +1,9 @@
+### The package
+
+[![Latest Stable Version](https://poser.pugx.org/hamidgh83/intldatetime/v)](//packagist.org/packages/hamidgh83/intldatetime)
+[![Total Downloads](https://poser.pugx.org/hamidgh83/intldatetime/downloads)](//packagist.org/packages/hamidgh83/intldatetime)
+[![License](https://poser.pugx.org/hamidgh83/intldatetime/license)](//packagist.org/packages/hamidgh83/intldatetime)
+
 ### Overview
 
 This library can convert Gregorian dates into other calendars with supporting formatting output. It currently supports Jalali date but can be expandable for other calendars. 
